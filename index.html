@@ -41,11 +41,16 @@
 
 	var map;
 
-	var parks = [
+	var aboutme = [
 
-		{"park":"Yellowstone","coords":[44.4280,-110.5885]},
+		{"place":"London","coords":[37.128849,-84.083677]},
 
-		{"park":"Glacier","coords":[48.7596, -113.7870]}
+		{"place":"UK","coords":[39.149997,   -123.207635]},
+        {"place":"Australia","coords":[ 46.18907,-123.8347]},
+        {"place":"India","coords":[ 36.3325,-88.258102]},
+        {"place":"Paris","coords":[35.292105, -93.729922]},
+        {"place":"Pakistan","coords":[ 35.192829,-97.954395]},
+        
 
 		];
 
@@ -65,7 +70,7 @@
 
 
 
-		mashParks(parks);
+		mashParks(aboutme);
 
 	}
 
@@ -85,7 +90,7 @@
 
 			map: map,
 
-			label:results[i].park
+			label:results[i].place
 
 			});
 
